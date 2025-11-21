@@ -1,5 +1,5 @@
 $().ready(() => {
-    fetch('../nav.html')
+    fetch('./nav.html')
         .then(response => response.text())
         .then((data) => {
             $(".mNav").replaceWith(data);
